@@ -1,0 +1,5 @@
+package Observer_pattern;
+
+interface Observer {
+    void update(float temperature, float humidity, float pressure);
+}
